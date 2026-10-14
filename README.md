@@ -3,7 +3,6 @@
 **Русский** · [English](README.en.md)
 
 [![Agent Skills](https://img.shields.io/badge/Agent_Skills-SKILL.md-2f6feb)](https://agentskills.io)
-[![Verified](https://img.shields.io/badge/сверено_с_docs-21.09.2026-2da44e)](references/sources.md)
 [![License](https://img.shields.io/badge/license-Apache--2.0-lightgrey)](LICENSE)
 
 Платформа MAX быстро меняется, AI-агентам нужен актуальный контекст, чтобы писать рабочий код.
