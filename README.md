@@ -5,16 +5,16 @@
 [![Agent Skills](https://img.shields.io/badge/Agent_Skills-SKILL.md-2f6feb)](https://agentskills.io)
 [![License](https://img.shields.io/badge/license-Apache--2.0-lightgrey)](LICENSE)
 
-Платформа MAX быстро меняется, AI-агентам нужен актуальный контекст, чтобы писать рабочий код.
+MAX быстро меняется, AI-агентам нужен актуальный контекст, чтобы писать рабочий код.
 
 MAX Messenger Agent Skill — это набор навыков, благодаря которым AI-агенты разрабатывают ботов и мини-приложения
 для мессенджера [MAX](https://max.ru):
 
 - Bot API
 - Вебхуки
-- MAX Bridge
-- Библиотеки на Go и TypeScript
-- UI-кит `@maxhub/max-ui`
+- Библиотеки для настройки сценариев бота на Go и TypeScript
+- Библиотека для работы с мини-приложениями MAX Bridge
+- Библиотека MAX UI `@maxhub/max-ui`
 
 MAX Messenger Agent Skill работает в Claude Code, Codex, Cursor, Gemini CLI, OpenCode, GitHub Copilot, Cline,
 Claude Desktop и в любом агенте, который читает формат [Agent Skills](https://agentskills.io).
@@ -167,7 +167,7 @@ max-agents-skill/
 | `@maxhub/max-bot-api` | 0.3.1 (Node ≥ 20.19, ESM) |
 | `@maxhub/max-ui` | 0.5.0 (React 19.2.8) |
 
-Если скилл расходится с источником или информация устарела, прав источник:
+Если скилл расходится с источником или информация устарела, ориентируйтесь на информацию:
 
 - [dev.max.ru/docs-api](https://dev.max.ru/docs-api)
 - [MAX Bridge](https://dev.max.ru/docs/webapps/bridge)
