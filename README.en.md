@@ -13,9 +13,9 @@ for the [MAX](https://max.ru) messenger:
 
 - Bot API
 - Webhooks
-- MAX Bridge
-- Go and TypeScript libraries
-- The `@maxhub/max-ui` UI kit
+- Libraries for configuring bot scenarios in Go and TypeScript
+- MAX Bridge library for working with mini-apps
+- MAX UI kit `@maxhub/max-ui`
 
 MAX Messenger Agent Skill works in Claude Code, Codex, Cursor, Gemini CLI, OpenCode, GitHub Copilot, Cline,
 Claude Desktop and any agent that reads the [Agent Skills](https://agentskills.io) format.
@@ -168,7 +168,7 @@ The code compiles (`go vet`, `tsc --strict`) against these versions:
 | `@maxhub/max-bot-api` | 0.3.1 (Node ≥ 20.19, ESM) |
 | `@maxhub/max-ui` | 0.5.0 (React 19.2.8) |
 
-If the skill disagrees with a source or looks outdated, the source wins:
+If the skill disagrees with a source or looks outdated, rely on the information:
 
 - [dev.max.ru/docs-api](https://dev.max.ru/docs-api)
 - [MAX Bridge](https://dev.max.ru/docs/webapps/bridge)
